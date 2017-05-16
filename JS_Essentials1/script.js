@@ -1,4 +1,4 @@
-var name, time, place ; 
+var name, time, place, event ; 
 name = 'Вася';
 event = prompt('Enter event');
 time = prompt('Enter time of event');
