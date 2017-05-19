@@ -52,22 +52,25 @@ color: #fff;
 	position:absolute;
 }
 #puzzle #img1 {top:0px; left:0px;}
-#puzzle #img2 {top:75px; left:124px;}
-#puzzle #img3 {top:160px; left:211px;}
-#puzzle #img4 {top:313px; left:387px;}
+#puzzle #img2 {top:0px; left:124px;}
+#puzzle #img3 {top:0px; left:211px;}
+#puzzle #img4 {top:0px; left:387px;}
 #puzzle #img5 {top:0px; left:465px;}
-#puzzle #img6 {top:115px; left:  0px;}
-#puzzle #img7 {top:167px; left:  90px;}
-#puzzle #img8 {top:349px; left:  245px;}
-#puzzle #img9 {top:0px; left:  347px;}
-#puzzle #img10 {top:86px; left: 500px;}
-#puzzle #img11 {top:189px; left:  0px;}
-#puzzle #img12 {top:323px; left:  121px;}
-#puzzle #img13 {top:0px; left:  207px;}
-#puzzle #img14 {top:122px; left:  373px;}
-#puzzle #img15 {top:155px; left:  464px;}
-#puzzle #img16 {top:360px; left:  0px;}
-#puzzle #img17 {top:0px; left:  88px;}
-#puzzle #img18 {top:85px; left:  252px;}
-#puzzle #img19 {top:200px; left:  336px;}
+
+#puzzle #img6 {top:75px; left:  0px;}
+#puzzle #img7 {top:115px; left:  90px;}
+#puzzle #img8 {top:86px; left:  245px;}
+#puzzle #img9 {top:122px; left:  347px;}
+#puzzle #img10 {top:85px; left: 500px;}
+
+#puzzle #img11 {top:160px; left:  0px;}
+#puzzle #img12 {top:167px; left:  121px;}
+#puzzle #img13 {top:189px; left:  207px;}
+#puzzle #img14 {top:155px; left:  373px;}
+#puzzle #img15 {top:199px; left:  464px;}
+
+#puzzle #img16 {top:313px; left:  0px;}
+#puzzle #img17 {top:350px; left:  88px;}
+#puzzle #img18 {top:323px; left:  252px;}
+#puzzle #img19 {top:359px; left:  336px;}
 #puzzle #img20 {top:317px; left:  506px;}
