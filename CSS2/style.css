@@ -45,9 +45,10 @@ color: #fff;
 #puzzle  {
 	position:relative;
 	border: 5px solid #333;
-	margin: 0 auto;
-	width: 630px;¶
+        width: 630px;¶
         height: 473px;
+	margin: 0 auto;
+
 	background:url("img/v8/v8-watermark.jpg") no-repeat 0 0;)
 }
 #puzzle img {
