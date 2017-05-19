@@ -47,7 +47,7 @@ color: #fff;
         width: 630px;
         height: 473px;
 	margin: 0 auto;
-	background-image: url(v8-watermark.jpg) no-repeat 0 0;
+	background-image: url(img/v8-watermark.jpg) no-repeat 0 0;
 	border: 5px solid #333;
 }
 #puzzle img {
