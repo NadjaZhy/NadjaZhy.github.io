@@ -203,3 +203,12 @@ div.footer-button button {
     display: block;
     color: white;
 }
+.legalise {
+    background-color: #151414;
+    padding: 10px;
+}
+.legalise p {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
