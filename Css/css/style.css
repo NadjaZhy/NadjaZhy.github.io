@@ -206,6 +206,7 @@ div.footer-button button {
 .legalise {
     background-color: #151414;
     padding: 10px;
+     margin-left: -15px;
 }
 .legalise p {
     font-size: 12px;
