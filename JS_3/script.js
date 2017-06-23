@@ -5,7 +5,7 @@ var sum = 0;
 for(var i = 0; i < array.length; i++){
     sum += array[i];
     }
-alert(sum);
+alert('sumof 1,2,3= '+sum);
 }
 arraySum(arr);
  
@@ -17,7 +17,7 @@ function sumTo(n) {
   }
   return sum;
 }
-alert( sumTo(220) );
+alert('sum of numbers from 20 to 220= ' sumTo(220) );
 	
 //Task3.1   Display even numbers from 1 to 20 by using for loop.do it with using ‘continue’
 for (var i = 1; i < 20; i++) {
