@@ -52,7 +52,7 @@ while (i < 30) {
 document.write('<br>'+i) ;
 
 //Task5 Display numbers from 1 to 15 using ‘for’ loop, once num of iteration is equal the num of month of your birthday then stop execution of loop
-document.write('numbers from 1 to 15 using ‘for’ until it month of birth:'+'<br>') ;
+document.write('<br>'+'numbers from 1 to 15 using ‘for’ until it month of birth:'+'<br>') ;
 for(i=1; i<15; i++) {
  if (i==6) break;
 }
@@ -70,8 +70,8 @@ i++;}
    	while (i <= 100 ){
          	i = parseInt(prompt('Enter more than 100', i));
    	}
-   	document.write('You entered ' + i);
-document.write('<br>')
+   	alert('You entered ' + i);
+
  
  
 //Task7.2 Write code which will ask user (prompt ) to put number greater than 100, repeat prompt until user put required number, then display result of prompt  do it using ‘do while’
@@ -80,7 +80,7 @@ var i;
 do {
   i = prompt("Введите число больше 100?", 0);
 } while (i <= 100 && i != null);
- 
+ alert('You entered ' + i);
  
  
 //Task8 Show in console using for.
@@ -88,12 +88,12 @@ do {
  //##
  //###
  //####
- 
+ document.write('<br>')
 var str = '';
 var hash = "#";
 for(var i = 0; i < 8; i++){
     str += hash;
-    consile.log(str);
+    document.write(str);
 }
 
-document.write('<br>')
+
