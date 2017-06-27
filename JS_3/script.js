@@ -45,9 +45,9 @@ document.write('odd numbers from 10 to 30 by using ‘while’:' + '<br>');
 var i = 20;
 while (i < 30) {
     if (i % 2 === 0) {
-        document.write(+i);
+    i++;    
     }
-    i++;
+    document.write(+i);
 }
 document.write('<br>'+i) ;
 
