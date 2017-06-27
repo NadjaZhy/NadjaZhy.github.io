@@ -17,7 +17,7 @@ function sumTo(n) {
   }
   return sum;
 }
-document.write('total sum of numbers from 20 to 220 = '+sumTo(220) +'<br>');
+document.write('total sum of numbers from 20 to 220 = '+sumTo(220));
 	
 //Task3.1   Display even numbers from 1 to 20 by using for loop.do it with using ‘continue’
 document.write('even numbers from 1 to 20'+'<br>'); 
