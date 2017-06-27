@@ -24,7 +24,7 @@ for (var i = 1; i < 20; i++) {
  
   if (i % 2 == 0) continue;
  
-document.write(i + '<br>');
+document.writeln(i);
 } document.write('<br>'); 
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
