@@ -21,7 +21,7 @@ document.write('total sum of numbers from 20 to 220 = '+sumTo(220) );
 document.write('<br>')
 	
 //Task3.1   Display even numbers from 1 to 20 by using for loop.do it with using ‘continue’
-document.write('even numbers from 1 to 20'+'<br>'); 
+document.write('even numbers from 1 to 20 :'+'<br>'); 
 for (var i = 1; i < 20; i++) {
  
   if (i % 2 == 0) continue;
@@ -31,7 +31,7 @@ document.writeln(i);
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
 
-document.write('even numbers from 1 to 20 without using ‘continue’'+'<br>');
+document.write('even numbers from 1 to 20 without using ‘continue’:'+'<br>');
 var i = 1;
 while (i < 20) {
     if (i % 2) {
@@ -40,7 +40,7 @@ while (i < 20) {
     i++;
 }document.write('<br>')
 //Task4 Display odd numbers from 10 to 30 by using ‘while’ loop.
-document.write('odd numbers from 10 to 30 by using ‘while’' + '<br>');
+document.write('odd numbers from 10 to 30 by using ‘while’:' + '<br>');
 var i = 20;
 while (i < 30) {
     if (i % 2 === 0) {
@@ -48,9 +48,10 @@ while (i < 30) {
     }
     i++;
 }
-document.write(i'<br>') ;
+document.write('<br>') ;
+
 //Task5 Display numbers from 1 to 15 using ‘for’ loop, once num of iteration is equal the num of month of your birthday then stop execution of loop
-document.write('numbers from 1 to 15 using ‘for’ until it month of birth') ;
+document.write('numbers from 1 to 15 using ‘for’ until it month of birth:'+'<br>') ;
 for(i=1; i<15; i++) {
  if (i==6) break;
 }
