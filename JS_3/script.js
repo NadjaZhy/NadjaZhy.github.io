@@ -31,7 +31,7 @@ document.writeln(i);
 var i = 1;
 while (i < 20) {
     if (i % 2) {
-        document.write('even numbers from 1 to 20 without using ‘continue’' + i + '<br>');
+        document.write('<br>even numbers from 1 to 20 without using ‘continue’<br>' + i );
     }
     i++;
 }
