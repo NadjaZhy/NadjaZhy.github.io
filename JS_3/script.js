@@ -93,7 +93,7 @@ var str = '';
 var hash = "#";
 for(var i = 0; i < 8; i++){
     str += hash;
-    document.write(str);
+    consile.log(str);
 }
 
 document.write('<br>')
