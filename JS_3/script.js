@@ -49,11 +49,12 @@ while (i < 30) {
     i++;
 }
 //Task5 Display numbers from 1 to 15 using ‘for’ loop, once num of iteration is equal the num of month of your birthday then stop execution of loop
+document.write('numbers from 1 to 15 using ‘for’ until it month of birth') ;
 for(i=1; i<15; i++) {
  if (i==6) break;
 }
-document.write('numbers from 1 to 15 using ‘for’ until it month of birth'+i) ;
-document.write('<br>')
+document.write(i+'<br>') ;
+
  
 //Task6 Rewrite code from using ‘for’ to using ‘while’
 var i = 0;
