@@ -18,7 +18,7 @@ function sumTo(n) {
   return sum;
 }
 document.write('total sum of numbers from 20 to 220 = '+sumTo(220) );
- document.write('<br>'+'<br>')
+ document.write('<br>')
 	
 //Task3.1   Display even numbers from 1 to 20 by using for loop.do it with using ‘continue’
 document.write('even numbers from 1 to 20 :'+'<br>'); 
@@ -57,7 +57,7 @@ document.write('<br>'+'numbers from 1 to 15 using ‘for’ until it month of bi
 for(i=1; i<15; i++) {
  if (i==6) break;
 }
- document.write('<br>'+'<br>')
+ document.write('<br>')
 
  
 //Task6 Rewrite code from using ‘for’ to using ‘while’
