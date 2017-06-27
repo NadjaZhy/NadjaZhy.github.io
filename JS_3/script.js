@@ -30,7 +30,7 @@ document.writeln(i);
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
 
-document.write('even numbers from 1 to 20 without using ‘continue’<br>');
+document.write('even numbers from 1 to 20 without using ‘continue’'+'<br>');
 var i = 1;
 while (i < 20) {
     if (i % 2) {
@@ -39,10 +39,11 @@ while (i < 20) {
     i++;
 }document.write('<br>')
 //Task4 Display odd numbers from 10 to 30 by using ‘while’ loop.
+document.write('odd numbers from 10 to 30 by using ‘while’' + '<br>');
 var i = 20;
 while (i < 30) {
     if (i % 2 === 0) {
-        document.write('odd numbers from 10 to 30 by using ‘while’'+i + '<br>');
+        document.write(+i);
     }
     i++;
 }
