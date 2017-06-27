@@ -17,7 +17,7 @@ function sumTo(n) {
   }
   return sum;
 }
-document.writeln('total sum of numbers from 20 to 220 = '+sumTo(220) +'<br>');
+document.write('total sum of numbers from 20 to 220 = '+sumTo(220) +'<br>');
 	
 //Task3.1   Display even numbers from 1 to 20 by using for loop.do it with using ‘continue’
 for (var i = 1; i < 20; i++) {
@@ -29,10 +29,11 @@ document.writeln(i);
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
 var i = 1;
+document.writeln('even numbers from 1 to 20 without using ‘continue’');
 while (i < 20) {
     if (i % 2) {
-        document.write('<br>even numbers from 1 to 20 without using ‘continue’<br>' + i );
-    }
+        document.writeln( + i );
+    } document.write('<br>')
     i++;
 }
 //Task4 Display odd numbers from 10 to 30 by using ‘while’ loop.
