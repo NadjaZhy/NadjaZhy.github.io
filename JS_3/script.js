@@ -52,7 +52,7 @@ while (i < 30) {
 document.write('<br>'+i) ;
 
 //Task5 Display numbers from 1 to 15 using ‘for’ loop, once num of iteration is equal the num of month of your birthday then stop execution of loop
-document.write('<br>'+'numbers from 1 to 15 using ‘for’ until it month of birth:'+'<br>') ;
+document.write('<br>'+'numbers from 1 to 15 using ‘for’ until it month of birth:') ;
 for(i=1; i<15; i++) {
  if (i==6) break;
 }
@@ -93,7 +93,7 @@ var str = '';
 var hash = "#";
 for(var i = 0; i < 8; i++){
     str += hash;
-    document.write(str);
+    console.log(str);
 }
 
 
