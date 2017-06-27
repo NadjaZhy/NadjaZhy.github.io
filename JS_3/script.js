@@ -39,6 +39,7 @@ while (i < 20) {
     } 
     i++;
 }document.write('<br>')
+
 //Task4 Display odd numbers from 10 to 30 by using ‘while’ loop.
 document.write('odd numbers from 10 to 30 by using ‘while’:' + '<br>');
 var i = 20;
@@ -48,7 +49,7 @@ while (i < 30) {
     }
     i++;
 }
-document.write('<br>') ;
+document.write('<br>'+i) ;
 
 //Task5 Display numbers from 1 to 15 using ‘for’ loop, once num of iteration is equal the num of month of your birthday then stop execution of loop
 document.write('numbers from 1 to 15 using ‘for’ until it month of birth:'+'<br>') ;
