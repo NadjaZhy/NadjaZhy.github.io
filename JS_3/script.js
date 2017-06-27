@@ -56,7 +56,7 @@ document.write('numbers from 1 to 15 using ‘for’ until it month of birth:'+'
 for(i=1; i<15; i++) {
  if (i==6) break;
 }
-document.write(i+'<br>') ;
+document.write('<br>') ;
 
  
 //Task6 Rewrite code from using ‘for’ to using ‘while’
@@ -70,7 +70,7 @@ i++;}
    	while (i <= 100 ){
          	i = parseInt(prompt('Enter more than 100', i));
    	}
-   	alert('You entered ' + i);
+   	document.write('You entered ' + i);
 document.write('<br>')
  
  
