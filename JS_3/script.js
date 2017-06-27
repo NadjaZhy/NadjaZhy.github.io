@@ -31,7 +31,7 @@ document.write(i + '<br>');
 var i = 1;
 while (i < 20) {
     if (i % 2) {
-        document.write(i +',' + '<br>');
+        document.write('even numbers from 1 to 20 without using ‘continue’' + i + '<br>');
     }
     i++;
 }
@@ -39,7 +39,7 @@ while (i < 20) {
 var i = 20;
 while (i < 30) {
     if (i % 2 === 0) {
-        document.write(i + '<br>');
+        document.write('odd numbers from 10 to 30 by using ‘while’'+i + '<br>');
     }
     i++;
 }
@@ -47,7 +47,7 @@ while (i < 30) {
 for(i=1; i<15; i++) {
  if (i==6) break;
 }
-alert(i) 
+document.write('numbers from 1 to 15 using ‘for’ until it month of birth'+i) ;
  
 //Task6 Rewrite code from using ‘for’ to using ‘while’
 var i = 0;
@@ -82,5 +82,5 @@ var str = '';
 var hash = "#";
 for(var i = 0; i < 8; i++){
     str += hash;
-    console.log(str);
+    document.write(str);
 }
