@@ -27,7 +27,7 @@ for (var i = 1; i < 20; i++) {
   if (i % 2 == 0) continue;
  
 document.writeln(i);
-}  document.write('<br>'+'<br>')
+}  document.write('<br>')
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
 
@@ -38,7 +38,7 @@ while (i < 20) {
         document.writeln( + i );
     } 
     i++;
-} document.write('<br>'+'<br>')
+} document.write('<br>')
 
 //Task4 Display odd numbers from 10 to 30 by using ‘while’ loop.
 document.write('odd numbers from 10 to 30 by using ‘while’:' + '<br>');
@@ -50,7 +50,7 @@ while (i < 30) {
     document.write(+i);
 }
 document.write('<br>'+i) ;
- document.write('<br>'+'<br>')
+ document.write('<br>')
 
 //Task5 Display numbers from 1 to 15 using ‘for’ loop, once num of iteration is equal the num of month of your birthday then stop execution of loop
 document.write('<br>'+'numbers from 1 to 15 using ‘for’ until it month of birth:') ;
@@ -66,6 +66,7 @@ while (i <5) {
 document.write(i + '<br>');
 i++;}
  document.write('<br>') ;
+
 //Task7.1 Write code which will ask user (prompt ) to put number greater than 100, repeat prompt until user put required number, then display result of prompt  do it using ‘while’
    	var i = 0;
    	while (i <= 100 ){
