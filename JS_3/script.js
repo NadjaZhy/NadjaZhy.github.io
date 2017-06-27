@@ -28,14 +28,15 @@ document.writeln(i);
 } document.write('<br>'); 
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
-var i = 1;
+
 document.writeln('even numbers from 1 to 20 without using ‘continue’');
+var i = 1;
 while (i < 20) {
     if (i % 2) {
         document.writeln( + i );
-    } document.write('<br>')
+    } 
     i++;
-}
+}document.write('<br>')
 //Task4 Display odd numbers from 10 to 30 by using ‘while’ loop.
 var i = 20;
 while (i < 30) {
