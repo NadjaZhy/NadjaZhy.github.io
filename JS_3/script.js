@@ -5,7 +5,7 @@ var sum = 0;
 for(var i = 0; i < array.length; i++){
     sum += array[i];
     }
-document.write('sumof 1,2,3= '+sum+ '<br>');
+document.write('sumof 1,2,3 = '+sum+ '<br>');
 }
 arraySum(arr);
  
@@ -31,7 +31,7 @@ document.write(i + '<br>');
 var i = 1;
 while (i < 20) {
     if (i % 2) {
-        document.write(i + '<br>');
+        document.write(i +',' + '<br>');
     }
     i++;
 }
