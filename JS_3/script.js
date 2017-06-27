@@ -17,7 +17,8 @@ function sumTo(n) {
   }
   return sum;
 }
-document.write('total sum of numbers from 20 to 220 = '+sumTo(220) + '<br>');
+document.write('total sum of numbers from 20 to 220 = '+sumTo(220) );
+document.write('<br>')
 	
 //Task3.1   Display even numbers from 1 to 20 by using for loop.do it with using ‘continue’
 document.write('even numbers from 1 to 20'+'<br>'); 
@@ -26,7 +27,7 @@ for (var i = 1; i < 20; i++) {
   if (i % 2 == 0) continue;
  
 document.writeln(i);
-} 
+} document.write('<br>')
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
 
@@ -52,6 +53,7 @@ for(i=1; i<15; i++) {
  if (i==6) break;
 }
 document.write('numbers from 1 to 15 using ‘for’ until it month of birth'+i) ;
+document.write('<br>')
  
 //Task6 Rewrite code from using ‘for’ to using ‘while’
 var i = 0;
@@ -65,6 +67,7 @@ i++;}
          	i = parseInt(prompt('Enter more than 100', i));
    	}
    	alert('You entered ' + i);
+document.write('<br>')
  
  
 //Task7.2 Write code which will ask user (prompt ) to put number greater than 100, repeat prompt until user put required number, then display result of prompt  do it using ‘do while’
@@ -88,3 +91,5 @@ for(var i = 0; i < 8; i++){
     str += hash;
     document.write(str);
 }
+
+document.write('<br>')
