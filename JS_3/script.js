@@ -25,11 +25,11 @@ for (var i = 1; i < 20; i++) {
   if (i % 2 == 0) continue;
  
 document.writeln(i);
-} document.write('<br>'); 
+} document.write('even numbers from 1 to 20<br>'); 
  
 //Task3.2 Display even numbers from 1 to 20 by using for loop. do it without using ‘continue’
 
-document.writeln('even numbers from 1 to 20 without using ‘continue’');
+document.write('even numbers from 1 to 20 without using ‘continue’<br>');
 var i = 1;
 while (i < 20) {
     if (i % 2) {
